@@ -1,9 +1,16 @@
 "vundle vim插件管理工具
 "使用前需要先安装：git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"常用命令:
+"安装插件: BundleInstall / PluginInstall
+"1.编辑.vimrc文件加入: Plugin 'github用户名/插件名'
+"2.保存退出当前的vim
+"3.重新打开vim，输入命令:BundleInstall。
+
 "移除不需要的插件: BundleClean / PluginClean
 "1.编辑.vimrc文件移除的你要移除的插件所对应的plugin那一行。
 "2.保存退出当前的vim
-"3.重新打开vim，输入命令BundleClean。
+"3.重新打开vim，输入命令:BundleClean。
+
 "其他常用命令
 "1.更新插件BundleUpdate
 "2.列出所有插件BundleList
