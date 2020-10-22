@@ -17,7 +17,7 @@
 "3.查找插件BundleSearch
 
 set nocompatible
-filetype on
+filetype off
  
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -193,7 +193,7 @@ set foldmethod=indent
 set foldlevel=3 
 set foldenable              " 开始折叠
 " 不要使用vi的键盘模式，而是vim自己的
-set nocompatible
+" set nocompatible
 " 语法高亮
 set syntax=on
 " 去掉输入错误的提示声音
